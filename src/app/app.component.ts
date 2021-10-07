@@ -10,10 +10,8 @@ import { NgForm } from '@angular/forms';
 export class AppComponent {
   title = 'Exam1Temp';
   selected : any;
- degree:number=0;
+  degree:number=0;
   result:number=0;
-  // temperatureConverter: any;
-  // temperatureConverter: FormGroup;
 
   temperatureConverter(data:any){
     // C = (F − 32) × 5/9
@@ -22,9 +20,10 @@ export class AppComponent {
       data=parseFloat(data);
       this.result=(data-32) / 1.8;
     }
-    else{
+    if(this.selected === "Kelvin")
+    {
       data=parseFloat(data);
-this.result = (data -273.15);
+      this.result = (data -273.15) ;
     }
   }
 }

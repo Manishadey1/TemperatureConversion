@@ -1,18 +1,19 @@
 
-<h1 class="heading">Temperature Conversion</h1>
+<h1 class="heading">-:Temperature Conversion:-</h1>
 <br>
 <div class="third">
   <input type="number" name="degree" class="inputBox" #inputBox>
 <mat-form-field appearance="fill" >
-  <mat-select [(value)]="selected" class="select">
+  <mat-select [(value)]="selected" class="select" required>
     <mat-option value="Fahrenheit">Fahrenheit</mat-option>
-    <mat-option value="Celcius">Celcius</mat-option>
+    <mat-option value="Kelvin">Kelvin</mat-option>
   </mat-select>
+ <!-- <span style="color: red;" *ngIf = "selected"></span> -->
 </mat-form-field>
   <button mat-button color="primary" class="example-button-row" (click)="temperatureConverter(inputBox.value)" >Convert</button>
 </div>
 
 <br>
-<h1 class="result">Result: {{result}}</h1>
+<h1 class="result">Result: {{result}} °C</h1>
 
 
