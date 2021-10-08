@@ -3,12 +3,8 @@
     font-family: "Times New Roman", Times, serif;
 }
 
-.heading {
-    color: blue;
-}
-
 .heading2 {
-    color: black;
+    color: blue;
 }
 
 .main-body {
@@ -51,6 +47,12 @@
 }
 
 
+.convert-button:hover{
+    background-color: brown;
+  }
+  
+
+
 .result {
     color: blue;
 }
@@ -60,3 +62,4 @@
     padding: .75em .75em 0 .75em;
     background-color: white;
 }
+

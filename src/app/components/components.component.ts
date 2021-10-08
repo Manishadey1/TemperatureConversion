@@ -15,7 +15,7 @@ export class ComponentsComponent implements OnInit {
   selected : any;
   selected1 : any;
   degree : number=0;
-  result : number=0;
+  result : number | undefined;
   data : number | undefined;
   display =false ;
 

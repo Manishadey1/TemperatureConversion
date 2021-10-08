@@ -1,9 +1,10 @@
+<div class="whole-body">
 <!-- <h1 class="heading">-:Temperature Conversion:-</h1> -->
 <p class="heading2"> Celcius/Kelvin to Fahrenheit</p>
 <br>
 <div class="main-body">
 
-    <input type="number" id="name" name="degree" class="inputBox" placeholder="Degrees" #inputBox>
+    <input type="number" id="name" name="degree" class="inputBox" placeholder="Degrees"  #inputBox>
     <mat-form-field appearance="fill">
         <mat-select [(value)]="selected" class="select" placeholder="Type" required>
             <mat-option value="Celcius">Celcius</mat-option>
@@ -16,4 +17,4 @@
 <br>
 <h1 *ngIf="display" class="result">Result: {{inputBox.value}} degrees {{this.selected}} = {{result | number : '1.2-2'}} °F</h1>
 
-
+</div>

@@ -8,9 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   title = 'Exam1Temp';
+  selected11 : number=10;
   selected : any;
   degree : number=0;
-  result : number=0;
+  result : number | undefined;
   data : number | undefined;
   display =false ;
 
@@ -26,6 +27,10 @@ export class AppComponent {
     // C = (K - 273.15)
     {
       this.result = (data -273.15) ;
+    }
+    else if( this.degree === null ){
+      console.log("hi");
+      
     }
   }
 }

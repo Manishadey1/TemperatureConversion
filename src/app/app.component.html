@@ -1,12 +1,13 @@
+<div class="whole-body">
 <h1 class="heading">-:Temperature Conversion:-</h1>
-<p>Fahrenheit/Kelvin to Celcius</p>
+<p class="heading2">Fahrenheit/Kelvin to Celcius</p>
 <br>
 <div class="main-body">
-
+        
         <input type="number" id="name" name="degree" class="inputBox" placeholder="Degrees" #inputBox>
 
         <mat-form-field appearance="fill">
-            <mat-select [(value)]="selected" class="select" placeholder="Type" required>
+            <mat-select [(value)]="selected" name="selected11" class="select" placeholder="Type" required>
                 <mat-option value="Fahrenheit">Fahrenheit</mat-option>
                 <mat-option value="Kelvin">Kelvin</mat-option>
             </mat-select>
@@ -20,3 +21,5 @@
 <br>
 <br>
 <app-components></app-components>
+
+</div>

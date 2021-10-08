@@ -4,8 +4,13 @@
 }
 
 .heading {
+  color: red
+}
+
+.heading2 {
   color: blue;
 }
+
 
 .main-body {
   display: flex;
@@ -44,6 +49,11 @@
 }
 
 
+.convert-button:hover{
+  background-color: brown;
+}
+
+
 .result {
   color: blue;
 }
@@ -53,3 +63,4 @@
   padding: .75em .75em 0 .75em;
   background-color: white;
 }
+
