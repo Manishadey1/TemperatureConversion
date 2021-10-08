@@ -6,12 +6,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSelectModule} from '@angular/material/select';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
+import { ComponentsComponent } from './components/components.component';
 // import { FormGroup } from '@angular/forms';
 // import { FormControl } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ComponentsComponent,
   ],
   imports: [
     BrowserModule,

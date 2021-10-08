@@ -1,63 +1,55 @@
-
 * {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  }
+}
 
-  // .First{
-  //   // background-color: lightgrey;
-  //   width: 100%;
-  //   border: 15px solid green;
-  //   padding: 50px;
-  //   margin: auto; 
-  //   display: flex;
-  //   background-color: cadetblue;
-  // }
+.heading {
+  color: blue;
+}
 
-  .heading{
-    color: blue;
-  }
+.main-body {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 25vh;
+  background-color: cadetblue;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: auto;
+  outline: none;
+  border: 15px solid green;
+  background-color: yellow;
 
-  .third{
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    height: 25vh;
-    background-color: cadetblue;
-    // padding: 50px;
-    padding-top: 80px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: auto;
-    outline: none;
-    border: 15px solid green;
-    background-color: yellow;
-    
-  }
-  
-  .example-button-row {
-    width: 20%;
-    height: 10vh;
-    background-color: blue;
-    color: white;
-    font-size: 150%;
-    }
-    
-  
-  .inputBox{
-    width: 20%;
-    height: 9vh;
-    white-space: normal;
-  }
+}
 
-  
+.inputBox {
+  width: 20%;
+  height: 9vh;
+  white-space: normal;
+}
 
-  .select{
-    height: 3vh;
-    width: 100%;
-    background-color: white;
-  }
+.select {
+  height: 3vh;
+  width: 100%;
+  background-color: white;
+}
 
-  .result{
-    color: blue;
-  }
+.convert-button {
+  width: 20%;
+  height: 10vh;
+  background-color: blue;
+  color: white;
+  font-size: 150%;
+}
+
+
+.result {
+  color: blue;
+}
+
+.fill {
+  border-radius: 4px 4px 0 0;
+  padding: .75em .75em 0 .75em;
+  background-color: white;
+}
